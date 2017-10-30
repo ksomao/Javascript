@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        html{
+            width: 100%;
+            height: 100%;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .hoverMe {
+            background: #000;
+            text-align: center;
+            color: white;
+            transition: all 500ms ease-in-out;
+            animation: anim ;
+        }
+
+        #reset {
+            background: red;
+        }
+
+        .axe {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hoverMe box">div1</div>
+<div class="hoverMe box">div2</div>
+<div class="hoverMe box">div3</div>
+<div id="reset" class="box">reset</div>
+<div id="axeX" class="axe box">axe-x</div>
+<div id="axeY" class="axe box">axe-y</div>
+
+<script src="app.js"></script>
+</body>
+</html>
